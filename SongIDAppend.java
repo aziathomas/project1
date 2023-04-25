@@ -4,8 +4,8 @@ import java.util.*;
 public class SongIDAppend {
     public static void main(String[] args) {
         try {
-            BufferedReader reader = new BufferedReader(new FileReader("C:/Users/soldi/Desktop/School/Spring 2023/Data Structures/songs.txt"));
-            BufferedWriter writer = new BufferedWriter(new FileWriter("C:/Users/soldi/Desktop/School/Spring 2023/Data Structures/songs_with_ids.txt"));
+            BufferedReader reader = new BufferedReader(new FileReader("C:aziathomas/GenderMag2/blob/main/SongList.txt));
+            BufferedWriter writer = new BufferedWriter(new FileWriter("C:aziathomas/GenderMag2/blob/main/SongListWithIDs.txt));
 
             String line;
             while ((line = reader.readLine()) != null) {
